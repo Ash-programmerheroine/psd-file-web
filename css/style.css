@@ -180,8 +180,54 @@ portfolio section css
 .portfolio-img{
 	
 	margin-bottom: 34px;
+	display: block;
+    opacity: 1;
+}
+.col-4{
+	position: relative;
+	
+}
+.middle-icon {
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0 ;
+  height: 88.3%;
+  width: 90.1%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #2ba7f2;
 }
 
+
+
+.col-4:hover .middle-icon {
+  
+  opacity: 1;
+  
+}
+
+.border-icon{
+	    margin-top: 30%;
+    margin-left: 36%;
+}
+}
+.border-icon .fa{
+	border:2px solid #fff;
+	border-radius:2px;
+	padding: 10px;
+	color: #fff;
+	
+
+}
+.border-icon .fa{
+	border:2px solid #fff;
+	border-radius:2px;
+	padding: 10px;
+	color: #fff;
+	margin-left: 2%;
+}
 /*------------
 Contact section css
 -------------*/
